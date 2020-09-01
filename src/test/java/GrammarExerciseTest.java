@@ -19,7 +19,7 @@ class GrammarExerciseTest {
         //given
         String first = "apple,juice,mother,people,beautiful,apple,dog";
         String second = "cat,baby,smile,good,apple,beautiful,Dog,nice";
-        List<String> expected = Arrays.asList("A P P L E", "B E A U T I F U L", "D O G");
+        List<String> expected = Arrays.asList("apple", "beautiful", "dog");
         //when
         List<String> result = grammarExercise.findCommonWordsWithSpace(first, second);
         //then
